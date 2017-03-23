@@ -1,0 +1,157 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	height: 200px;
+	background-image: url("container.png");
+	background-size: cover;
+	margin: 0;
+	color: #000;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #0C3;
+}
+a:active {
+	text-decoration: none;
+	color: #D6D6D6;
+}
+.container {
+	height: 200px;
+	margin: 0 auto; 
+	background-color: #000;
+	opacity: 0.5
+}
+.container2 {
+	height: 200px;
+	margin: 0 auto;
+	background-image: url("containerbg3.png");
+	width: 100%;
+	font-size: x-large;
+}
+
+
+.content {
+	font-size: x-large;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}.container .content center p font a {
+	color: #FFF;
+	text-align: center;
+}
+#content {
+    position: relative;
+	float:left; padding:10px;
+}
+
+#content2{
+	position: relative;
+	float:left; padding:10px;
+}
+.top{
+	position: relative;
+	top: 0px;
+}
+.whitecase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 60px;
+	font-size: 24px;
+}
+.contentcase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 100px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.listcase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 120px;
+	font-size: 24px;
+}
+.breakcase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 120px;
+	font-size: 6px;
+}
+.titlecase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.indentcase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 135px;
+	font-size: 24px;
+}
+.subtitlecase {
+	color: #FFF;
+	text-align: left;
+	margin-left: 60px;
+	font-size: 28px;
+	font-weight: bold;
+}
